@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #2ee6d6;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #2ee6d6;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    box-shadow: 0px 4px 4px rgb(230, 230, 230);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.title-e {
+    font-size: 28px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+#inputZone {
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px rgb(202, 202, 202);
+    width: 80vw;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+}
+
+#userInput {
+    border: 0;
+    padding: 0;
+    height: 50px;
+    background: none;
+    width: calc(100% - 50px);
+    padding-left: 25px;
+    border-radius: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#addButton {
+    display: inline-block;
+    border: 0;
+    font-family: Montserrat;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: gray;
+    background: none;
+}
+
+#toDoList {
+    width: 80vw;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-inline-start: 0;
+    box-shadow: 0px 4px 12px rgb(173, 173, 173);
+}
+
+.list {
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding: 24px 16px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgb(122, 122, 122);
+}
+
+.closeButton {
+    font-size: 12px;
+    color: rgb(180, 180, 180);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: rgb(235, 235, 235);
+}
+
