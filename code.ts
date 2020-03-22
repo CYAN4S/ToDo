@@ -32,7 +32,8 @@ function addList(): boolean {
     li.appendChild(document.createTextNode(inputString));
 
     let dd = document.createElement("span");
-    dd.appendChild(document.createTextNode(" " + new Date().toLocaleString()));
+    dd.appendChild(document.createElement("br"));
+    dd.appendChild(document.createTextNode("" + new Date().toLocaleString()));
     dd.className = "time";
     li.appendChild(dd);
 

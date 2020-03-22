@@ -26,7 +26,8 @@ function addList() {
     li.addEventListener("click", function () { checkList(li); });
     li.appendChild(document.createTextNode(inputString));
     var dd = document.createElement("span");
-    dd.appendChild(document.createTextNode(" " + new Date().toLocaleString()));
+    dd.appendChild(document.createElement("br"));
+    dd.appendChild(document.createTextNode("" + new Date().toLocaleString()));
     dd.className = "time";
     li.appendChild(dd);
     var bt = document.createElement("a");
