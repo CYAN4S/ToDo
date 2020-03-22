@@ -30,6 +30,18 @@ header {
     color: white;
 }
 
+.resetdiv {
+    text-align: center;
+    padding: 20px;
+}
+
+.reset {
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+    width: 100px;
+}
+
 h1 {
     text-align: center;
     font-size: 48px;
@@ -101,7 +113,15 @@ h1 {
     cursor: pointer;
 }
 
+.time {
+    font-size: 14px;
+    color: rgb(180, 180, 180);
+    font-weight: 700;
+}
+
 .list:hover {
     background-color: rgb(235, 235, 235);
 }
+
+
 
